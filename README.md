@@ -18,4 +18,6 @@ Discrete Graphic | Nvidia GeForce 250MX | Unsupported, Disabled by default |
 Bios Version | CNCN16WW | Secure Boot Disabled |
 HDMI |    | Working |
 USB Ports |      | Working |
+Fingerprint reader | Goodix| Disabled (recognised but can't be used) |
+SSD | Samsung PM981  | R/W works with NVMeFix (however macOS install doesn't work) |
 OS | BigSur | Working |
