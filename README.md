@@ -29,19 +29,20 @@ OS | BigSur | Working |
 2. Generate your own SMBIOS :
 
 - Do the following one line at a time in Terminal:
-
+```
     git clone https://github.com/corpnewt/GenSMBIOS
     cd GenSMBIOS
     chmod +x GenSMBIOS.command
+```
     
 - Then run with either `python ./GenSMBIOS.command` on *nix system or by double-clicking *GenSMBIOS.command* on macOS.
 On Windows `./GenSMBIOS.bat`.
 
-- Choose 1. Install/Update MacSerial
+- Choose *Install/Update MacSerial*.
 
-- Then choose 2. Select the config.plist file and select it from the EFI folder. 
+- Then choose *Select the config.plist file* and select it from the EFI folder. 
 
-- Now choose 3. Generate SMBIOS and generate the SMBIOS by entering MacBookPro16,1
+- Now choose *Generate SMBIOS* and generate the SMBIOS by entering MacBookPro16,1
 
 3. Finalising with proper tree:  
 
