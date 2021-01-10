@@ -22,4 +22,45 @@ Fingerprint reader | Goodix| Disabled (recognised but can't be used) |
 SSD | Samsung PM981  | R/W works with NVMeFix (however macOS install doesn't work) |
 OS | BigSur | Working |
 
-MacBookPro16,1
+## Setting Up 
+
+1. Place the EFI folder to the EFI partition
+
+2. Generate your own SMBIOS :
+
+- Do the following one line at a time in Terminal:
+
+    git clone https://github.com/corpnewt/GenSMBIOS
+    cd GenSMBIOS
+    chmod +x GenSMBIOS.command
+    
+- Then run with either `python ./GenSMBIOS.command` on *nix system or by double-clicking *GenSMBIOS.command* on macOS.
+On Windows `./GenSMBIOS.bat`.
+
+- Choose 1. Install/Update MacSerial
+
+- Then choose 2. Select the config.plist file and select it from the EFI folder. 
+
+- Now choose 3. Generate SMBIOS and generate the SMBIOS by entering MacBookPro16,1
+
+3. Finalising with proper tree:  
+
+#### On *nix systems:
+
+```
+git clone https://github.com/corpnewt/ProperTree
+python ./ProperTree/ProperTree.command
+```
+
+\* On macOS, you can simply double-click the `ProperTree.command` after cloning to launch.
+
+#### On Windows:
+
+```
+git clone https://github.com/corpnewt/ProperTree
+./ProperTree/ProperTree.bat
+```
+
+- Press Ctrl + O and select config.plist   
+- Press Ctrl + Shift + R and navigate to /EFI/OC/ and click open 
+- Save the changes..
