@@ -16,4 +16,6 @@ Audio | 2X2W Dual Speaker, With Dolby Audio | Working |
 Touchpad | Synaptics Trackpad | Working |
 Discrete Graphic | Nvidia GeForce 250MX | Unsupported, Disabled by default |
 Bios Version | CNCN16WW | Secure Boot Disabled |
+HDMI |    | Working |
+USB Ports |      | Working |
 OS | BigSur | Working |
